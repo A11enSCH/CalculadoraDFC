@@ -1,11 +1,15 @@
 package Operaciones;
 
 public class Combinatoria {
-	public double calcular (double num1, double num2) throws Exception{
+	public long calcular (long num1, long num2) throws Exception{
 		if(num2<=num1) {
-			
-		}else {
 			throw new Exception("El numero que representa r! no puede ser mayor que n!");
+		}else if(num2==0) {
+			throw new Exception("No se puede dividir por 0");
+		}else {
+			for (int i=1, i<=num2, i++) {
+				
+			}
 		}
 	}
 }
