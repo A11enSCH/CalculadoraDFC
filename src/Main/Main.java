@@ -13,9 +13,9 @@ public class Main {
 		f = new Factorial(5,0);
 		System.out.println(f.resultado());
 		
-	/*	Operaciones c;
-		c = new Combinatoria(5,3);
+		Operaciones c;
+		c = new Combinatoria(10,5);
 		System.out.println(c.resultado());
-		*/
+		
 	}
 }
